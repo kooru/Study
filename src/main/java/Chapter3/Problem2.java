@@ -1,11 +1,10 @@
-package greedy;
+package Chapter3;
 
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
-import java.util.stream.IntStream;
 
-public class Chapter2 {
+public class Problem2 {
 
     public static void main(String[] args) {
         int N = 0; // Array Size
