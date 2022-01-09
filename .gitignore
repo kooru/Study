@@ -2,3 +2,5 @@
 /.gradle/
 /build/
 /build/classes/java/main/
+/src/main/java/test/*
+/src/main/java/test/naver/220103/
