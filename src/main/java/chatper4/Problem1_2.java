@@ -14,11 +14,6 @@ public class Problem1_2 {
         N = Integer.valueOf(s[0]);
         if (N > 23 || N < 0) throw new RuntimeException("N Over");
 
-        // 3이 나올 경우의 수
-        // 3000 3300 3330 3333 0300 0330 0333 0030 0033 0003
-        // 첫째자리 6 둘째자리 10 세째자리 6 네째자리 10
-        // 근데 귀찮다 그냥 세자
-
         int count = 0;
         int count2 = 0;
         for (int i = 0; i <= N; i++) {
